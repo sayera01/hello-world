@@ -1,0 +1,14 @@
+# testing - this is a basic workflow to help you get started
+name: CI
+# Controls when the workflow will run
+on: 
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: running echo
+        run: echo hello World !!!
+  
