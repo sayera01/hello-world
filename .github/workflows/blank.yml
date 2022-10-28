@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: running echo
-        run: echo hello World !!!
+        run: pwd; cat /etc/os* ; ls -lrt; df -h; free -h
   
